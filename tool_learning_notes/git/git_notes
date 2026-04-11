@@ -1,0 +1,20 @@
+The Development Process using Git
+1.Fork(own to you)
+2.git clone
+3.git remote add upstream https://github.com/原作者/项目名.git
+4.develop,fix
+5.git add .
+6.git commit -m "x"
+7.git push
+
+to update:
+1.git fetch upstream        # 下载更新，不动代码
+2.git merge upstream/main   # 合并更新
+3.git push origin main      # 同步到Github(fork的项目)
+
+pull requests:
+1.git checkout -b dev
+2.change
+3.git add .
+4.git commit -m "x"
+5.git push origin dev
